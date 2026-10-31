@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Choose an image to preview and describe.">
+    <title>Image Description</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <main>
+      <h1>Image Description</h1>
+      <label for="image-input">Choose an image</label>
+      <input id="image-input" type="file" accept="image/*">
+      <img id="image-preview" alt="Selected image preview" hidden>
+      <button type="button">Describe Image</button>
+      <div id="result" aria-live="polite"></div>
+    </main>
+    <script src="main.js"></script>
+  </body>
+</html>
